@@ -6,7 +6,7 @@ const Index = () => {
     <View>
       <Text>Index</Text>
     </View>
-  );
+  ); 
 };
 
 export default Index;
