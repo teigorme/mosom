@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "mo-som",
-    "slug": "mo-som",
+    "name": "mosom",
+    "slug": "mosom",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "myapp",
+    "scheme": "mosom",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -17,7 +17,6 @@
         "backgroundColor": "#ffffff"
       },
       "permissions": [
-        "android.permission.RECORD_AUDIO",
         "android.permission.RECORD_AUDIO"
       ],
       "package": "com.oblockone.mosom"
@@ -48,6 +47,14 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "6576ac6c-dbf7-48c9-851b-1f753d8d2574"
+      }
     }
   }
 }
